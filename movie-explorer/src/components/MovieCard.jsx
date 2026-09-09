@@ -7,7 +7,7 @@ export default function MovieCard({movie}){
 				<img alt={movie.Title} src={movie.Poster}/>
 				<h3>{movie.Title}</h3>
 				<p>{movie.Year}</p>
-        <Link to="{`/movie/${movie.imdbID}`}">Details</Link>
+        <Link to={`/movie/${movie.imdbID}`}>Details</Link>
 			
 			</div>
     </>
